@@ -1,0 +1,26 @@
+/* General Styles */
+.CardTable {
+    display: grid;
+    margin-top: 0.2rem;
+    min-height: 15vh;
+    min-width: 75vw;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: 
+        "draw-button shuffle-button"
+        "card-pile card-pile";
+    grid-gap: 1rem;
+}
+
+/* Button Styles */
+.DrawButton {
+    grid-area: draw-button;
+}
+
+.ShuffleButton {
+    grid-area: shuffle-button;
+}
+
+.CardPile {
+    grid-area: card-pile;
+}
